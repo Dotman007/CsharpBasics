@@ -46,6 +46,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="FullTimeEmployee.cs" />
     <Compile Include="PartTimeEmployee.cs" />
+    <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
