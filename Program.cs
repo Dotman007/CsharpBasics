@@ -21,15 +21,23 @@ namespace CSharpBasics
             ////Console.WriteLine("This belongs to me alone :" + fullTimeEmployee.MonthlySalary);
             ///
 
-            Polymorphism[] polymorphisms = new Polymorphism[4];
-            polymorphisms[0] = new Polymorphism();
-            polymorphisms[1] = new Polymorphism();
-            polymorphisms[2] = new Polymorphism();
-            polymorphisms[3] = new Polymorphism();
-            foreach (Polymorphism p in polymorphisms)
-            {
-                p.PrintFullInfo();
-            }
+
+            //Polymorphism
+            //Polymorphism[] polymorphisms = new Polymorphism[4];
+            //polymorphisms[0] = new Polymorphism();
+            //polymorphisms[1] = new Polymorphism();
+            //polymorphisms[2] = new Polymorphism();
+            //polymorphisms[3] = new Polymorphism();
+            //foreach (Polymorphism p in polymorphisms)
+            //{
+            //    p.PrintFullInfo();
+            //}
+
+
+            //Method Overriding
+            BaseClass baseClass = new DerivedClass();
+            baseClass.Print();
+
             Console.ReadLine();
         }
     }
