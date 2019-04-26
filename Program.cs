@@ -35,8 +35,11 @@ namespace CSharpBasics
 
 
             //Method Overriding
-            BaseClass baseClass = new DerivedClass();
-            baseClass.Print();
+            //BaseClass baseClass = new DerivedClass();
+            //baseClass.Print();
+
+            MethodHidingDerived methodHidingBase = new MethodHidingDerived();
+            methodHidingBase.BaseMethod();
 
             Console.ReadLine();
         }
